@@ -33,7 +33,4 @@ class CKIPSegmenter(Segmenter):
         # ner_results = self.ner(ws_results, pos_results)
         return ws_results[0]
 
-# segmenter = JiebaSegmenter()
-# res = segmenter.segment("接著從下面連結下載模型，看自已喜歡放哪都可以，只要 path 找得到就好，下載後是一個 .zip 的壓縮檔，裡面共5個資料夾，有3個資料夾存放的就是我們要使用的模型。")
-# print(res)
 

@@ -21,6 +21,5 @@ class BlazingTextInputDataTransformer(ClassificationInputDataTransformer):
 
     def transform(self, input: Tuple[str, str, List[str]]):
         label =  self.lebel_prefix+input[1]
-        print('input', input[2])
         text_feature = ' '.join(input[2])
         return ' '.join([label, text_feature])
